@@ -1,6 +1,6 @@
 #import "RNCustomKeyboard.h"
 #import <React/RCTUIManager.h>
-#import <RCTText/RCTBaseTextInputView.h>
+#import "RCTBaseTextInputView.h"
 #import <sys/utsname.h>
 
 @implementation RNCustomKeyboard
