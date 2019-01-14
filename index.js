@@ -69,7 +69,9 @@ export class CustomTextInput extends Component {
   }
 
   onRef = ref => {
-    this.props.onCustomInputRef(ref);
+    if (this.props.onCustomInputRef) {
+      this.props.onCustomInputRef(ref);
+    }
     this.input = ref;
   };
 
